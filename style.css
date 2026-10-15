@@ -1,6 +1,4 @@
-/* ======================================
-   CORES E FONTE USADAS NO SITE INTEIRO
-   ====================================== */
+
 :root {
   --cor-fundo: #050507;
   --cor-fundo-caixa: #0c0c11;
@@ -11,7 +9,6 @@
   --cor-borda: #2a2035;
 }
 
-/* reset básico: tira as margens padrão do navegador */
 * {
   margin: 0;
   padding: 0;
@@ -25,9 +22,6 @@ body {
   line-height: 1.6;
 }
 
-/* ======================================
-   CABEÇALHO E MENU
-   ====================================== */
 header {
   display: flex;
   justify-content: space-between;
@@ -57,9 +51,6 @@ nav a:hover {
   color: var(--cor-roxo-claro);
 }
 
-/* ======================================
-   SEÇÕES (regra geral para todas)
-   ====================================== */
 section {
   max-width: 900px;
   margin: 0 auto;
@@ -76,20 +67,15 @@ h2 {
   font-size: 28px;
 }
 
-/* ======================================
-   SEÇÃO: INÍCIO
-   ====================================== */
-
-/* .intro vira uma linha com duas colunas: texto e foto */
 .intro {
   display: flex;
-  flex-wrap: wrap;        /* em telas pequenas, quebra para baixo */
+  flex-wrap: wrap;        
   align-items: center;
   gap: 40px;
 }
 
 .texto-intro {
-  flex: 1 1 320px;        /* cresce, mas tem no mínimo 320px */
+  flex: 1 1 320px;       
 }
 
 .foto-intro {
@@ -116,9 +102,6 @@ h2 {
   color: var(--cor-roxo-claro);
 }
 
-/* ======================================
-   CARTÕES (usados em Projetos e Experiências)
-   ====================================== */
 .cartoes {
   display: flex;
   flex-wrap: wrap;
@@ -152,9 +135,6 @@ h2 {
   margin-bottom: 6px;
 }
 
-/* ======================================
-   SEÇÃO: CONTATO / FORMULÁRIO
-   ====================================== */
 form {
   display: flex;
   flex-direction: column;
@@ -195,9 +175,6 @@ button:hover {
   color: var(--cor-fundo);
 }
 
-/* ======================================
-   RODAPÉ
-   ====================================== */
 footer {
   text-align: center;
   padding: 30px;
@@ -206,7 +183,6 @@ footer {
   font-size: 13px;
 }
 
-/* Link do GitHub na seção de contato */
 .link-github {
   margin-top: 30px;
 }
